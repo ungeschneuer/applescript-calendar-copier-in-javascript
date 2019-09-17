@@ -8,3 +8,7 @@ There is a  sync implemented. Basically the target calendar gets deleted and rew
 
 The Calendar app needs to be active to allow changes, I put a command at the beginning of the script to launch the app but depending on your computer speed it may not be enough. Personally, I just never quit the thing. Sometimes, the changes don't show up directly in the UI. Just restart the app.
 
+## Automatic Daily Sync
+I also added my plist to the git. Move this to ~/Library/LaunchAgents/ and change your path to the script and also the time you want the script to run in the plist. Don't use leading zeros when setting the time.
+
+Then try ```$ launchctl load /path/to/plist/local.Marcel.SyncCalendar.plist``` and then ``` $ launchctl start local.Marcel.SyncCalendar ```
