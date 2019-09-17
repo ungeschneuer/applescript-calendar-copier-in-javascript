@@ -8,7 +8,7 @@
   <string>/usr/bin/osascript</string> 
   <key>ProgramArguments</key> 
   <array> 
-    <string>/Users/Marcel/Documents/applescript-calendar-copy/Calendar\ Sync.scpt 
+    <string>*** PUT HERE YOUR PATH TO THE SCRIPT 
 </string>
   </array> 
   <key>StartCalendarInterval</key>
